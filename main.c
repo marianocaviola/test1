@@ -11,7 +11,15 @@ int main() {
     // Dev-1
 
     // Dev-2
-    
+    if (n1 > n2) {
+        primero(n1, n2);
+    } 
+    else if (n1 < n2) {
+        segundo(n1, n2);
+    } 
+    else {
+        iguales();
+    }
     return 0;
 }
 
